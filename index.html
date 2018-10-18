@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+       <link rel="stylesheet" href="css/index.css" />
+   </head>
+   <body>
+   	 <div id="allContent">
+       <div id="container">
+       	<div class="top-back-right">
+            <button title="开启/退出全屏" class="btn-full-screen" onclick="switchFullScreenDisplay()">
+                <i class="glyphicon glyphicon-fullscreen"  id='btnFullScreen'></i>全屏</button>
+        </div>
+       	<div class="left">
+       		<div class="titles">今日新增数</div>
+       		<div class="target">病人数：5433085</div>
+       		<div class="target">就诊数：13973714</div>
+       		<div class="target">病历数：9026243</div>
+       		<div class="target">交易金额：8006757065</div>
+       		<div class="target">交易笔数：8531165</div>
+       		<div class="target">随访数：2137790</div>
+       		<div class="target">影像数：3120087</div>
+       		<div class="target">牙齿检查数：54194</div>
+       		<div class="target">短信数：0</div>
+       		<div class="target">总诊所数：87909788</div>
+       	</div>
+       	<div id="map"></div>
+       </div>
+       <div id="trend"></div>
+    </div>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+    <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+    <script type="text/javascript" src="js/lat_lon.js" ></script>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/index.js" ></script>
+   </body>
+</html>
