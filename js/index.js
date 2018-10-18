@@ -23,15 +23,15 @@ var trend_series_data = [
 	  [20, 52, 31, 24, 84, 80,60,70,20, 52, 31, 24, 60,60,40,20],
 	  [20, 72,31,84, 80,60,70,20, 52, 31, 24, 60, 64, 50,30,70]
 	]
-var data1=5433085;
-var data2 = 13973714;
-var data3 = 9026243;
-var data4 = 8006757065;
-var data5 = 8531165;
-var data6 = 2137790;
-var data7 = 3120087;
-var data8 = 54194;
-var data9 = 0;
+var data1=3085;
+var data2 = 7314;
+var data3 = 243;
+var data4 = 57065;
+var data5 = 1165;
+var data6 = 790;
+var data7 = 087;
+var data8 = 94;
+var data9 = 40;
 
 var trend_series = [];
 for(var i=0; i<trend_legend_data.length; i++) {
@@ -86,13 +86,13 @@ var visualMapData = [
     ]
 
 var newData = [
-     {name: '西安', value: [{customername:'未央浐灞赵婧口腔'},{patientcount:4}]},
-     {name: '成都', value: [{customername:'成都丽美口腔'},{patientcount:4}]},
-     {name: '银川', value: [{customername:'银川固德口腔门诊'},{patientcount:4}]},
-     {name: '上海', value: [{customername:'上海海康门诊部'},{patientcount:4}]},
-     {name: '沈阳', value: [{customername:'和平圣帝雅口腔'},{patientcount:4}]},
-     {name: '拉萨', value: [{customername:'和平圣帝雅口腔'},{patientcount:4}]},
-     {name: '库尔勒', value: [{customername:'圣帝雅口腔'},{patientcount:4}]}
+     {name: '西安', value: [{customername:'未央浐灞口腔'},{patientcount:4}]},
+     {name: '成都', value: [{customername:'成都芸丽口腔'},{patientcount:4}]},
+     {name: '银川', value: [{customername:'银川少人口腔门诊'},{patientcount:4}]},
+     {name: '上海', value: [{customername:'上海..门诊部'},{patientcount:4}]},
+     {name: '沈阳', value: [{customername:'和.平口腔'},{patientcount:4}]},
+     {name: '拉萨', value: [{customername:'和平口腔'},{patientcount:4}]},
+     {name: '库尔勒', value: [{customername:'圣雅口腔'},{patientcount:4}]}
 ];
 
 //匹配城市经纬度并添加到数组
